@@ -1,0 +1,69 @@
+.gallery-main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery-main-text h1 {
+  color: white;
+  font-size: 120px;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.537);
+}
+.gallery-main-text em {
+  color: white;
+  text-align: left;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.537);
+  margin: 50px -40px 27px 296px;
+}
+
+.card-container {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-container .pic-card {
+  position: relative;
+  padding: 10px;
+  margin: 7px;
+}
+
+.card-container .pic-card:hover button {
+  opacity: 1;
+}
+.card-container .pic-card:hover img {
+  opacity: 0.7;
+}
+
+.card-container .pic-card button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s;
+  border: none;
+  width: 50%;
+  padding: 15px 5px;
+  background-color: #1a3642db;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+.card-container .pic-card button:hover {
+  font-weight: bold;
+  padding: 20px 10px;
+  font-size: 22px;
+  border: 1px solid white;
+}
+.card-container .pic-card h4 {
+  padding: 5px;
+  text-align: center;
+  font-size: 22px;
+}
