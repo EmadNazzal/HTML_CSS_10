@@ -33,7 +33,7 @@ Hi! This is the first assignment for Web Development course at UCD. This is a st
 
 You can access the entire webpage through GitHub pages that allows us to host static website for purposes of testing and demonstration.
 
-> 			   *[Click Here to Access the webpage](https://emadnazzal.github.io/HTML_CSS_10/pages/index.html)*
+[Click Here to Access the webpage](https://emadnazzal.github.io/HTML_CSS_10/pages/index.html)
 
 The project consists of three folders :
 
