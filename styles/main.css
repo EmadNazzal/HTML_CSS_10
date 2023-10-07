@@ -224,7 +224,7 @@ nav ul li a:hover {
 footer {
   width: 100vw;
   margin-top: 50px;
-  padding: 30px;
+  padding: 30px 0px;
   background: linear-gradient(
     23deg,
     #e66464ac,
@@ -280,3 +280,71 @@ footer img {
 }
 
 /* end footer section  */
+
+/* START MEDIA QUERIES FOR RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 700px) {
+  .landing header h1 {
+    color: #ff6b08;
+  }
+
+  .heading-text h1 {
+    text-shadow: -4px 2px 1px #ff6b08;
+  }
+  .landing {
+    padding: 15px 20px 5px 20px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7777778b;
+    border-bottom: 1px solid white;
+    /* border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; */
+  }
+
+  nav {
+    width: 90%;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li a {
+    margin: 10px 0px;
+  }
+
+  .picAndText .heading-text h1 {
+    color: #ff6b08;
+    font-size: 50px;
+    margin-top: -28px;
+    text-align: center;
+  }
+  .picAndText img {
+    border-radius: 50%;
+    width: 350px;
+  }
+
+  .cards-services {
+    margin: 5px auto;
+    flex-direction: column;
+    /* flex-wrap: wrap;  ONLY WHEN @MEDIA EFFECTS APPLY*/
+  }
+
+  footer {
+    margin-top: 30px;
+    padding: 50px 0px;
+    flex-direction: column;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+/* END MEDIA QUERIES FOR RESPONSIVE DESIGN */
